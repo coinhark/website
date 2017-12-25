@@ -1,0 +1,1 @@
+Meteor app for Coinhark
