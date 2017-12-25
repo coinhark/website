@@ -7,13 +7,12 @@ We use the following Tensor definition:<br/>
 ## How to run 
 This code serves as a sketch.<br/>
 
-
 ```javascript
 meteor run
 ```
 
 ## Litecoin Balance 
-Currently, the website is used to provide information around our Litecoin Balance app, which is available on iOS and android.  We expect to website to evolve in service and use.
+Currently, the website is used to provide information around our Litecoin Balance app, which is available on iOS and android.  We expect the website to evolve in service and use.
 
 ## To Do
 
