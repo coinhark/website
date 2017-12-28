@@ -1,16 +1,3 @@
 node_modules/
 settings.json
-[[[[[ ~/website ]]]]]
-
-=> Started proxy.
-=> Started MongoDB.
-=> Started your app.
-
-=> App running at: http://localhost:6000/
-[[[[[ ~/website ]]]]]
-
-=> Started proxy.
-=> Started MongoDB.
-=> Started your app.
-
-=> App running at: http://localhost:6000/
+nohup.out

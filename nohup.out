@@ -1,15 +1,0 @@
-[[[[[ ~/website ]]]]]
-
-=> Started proxy.
-=> Started MongoDB.
-=> Started your app.
-
-=> App running at: http://localhost:6000/
-[[[[[ ~/website ]]]]]
-
-=> Started proxy.
-=> Started MongoDB.
-=> Started your app.
-
-=> App running at: http://localhost:6000/
-=> Server modified -- restarting...                                   => Meteor server restarted
