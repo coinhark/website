@@ -1,25 +1,311 @@
 <head>
-  <title>website</title>
+  <title>Coinhark - Litecoin Balance</title>
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
-
-  {{> hello}}
-  {{> info}}
+{{> info}}
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="info">
+  <div class="main-container">
+    <section class="fullscreen image-bg parallax background-multiply">
+      <div class="background-image-holder">
+        <img alt="image" class="background-image" src="/img/bg.jpg" />
+      </div>
+      <div class="container v-align-transform">
+        <div class="col-sm-4 col-sm-offset-4">
+          <img class="whale" src="/img/ltc-circle.png" />
+        </div>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1 center">
+            <h1 class="thin mb0">Keep track of your Litecoin wallet balances in one place</h1>
+          </div>
+        </div>
+        <!--end of row-->
+      </div>
+      <!--end of container-->
+      <div class="align-bottom text-center">
+        <ul class="list-inline social-list mb24">
+          <li>
+            <a href="http://www.twitter.com/coinhark">
+              <i class="ti-twitter-alt"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="ti-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="ti-dribbble"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="ti-vimeo-alt"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-push-3 text-center">
+            <div class="image-slider slider-paging-controls controls-outside">
+              <ul class="slides">
+                <li class="mb32">
+                  <img class="mock" alt="App" src="/img/coinhark_mockup.png" />
+                </li>
+                <li class="mb32">
+                  <img class="mock" alt="App" src="/img/coinhark_mock2.png" />
+                </li>
+                <li class="mb32">
+                  <img class="mock" alt="App" src="/img/coin_mock_copy.png" />
+                </li>
+                <li class="mb32">
+                  <img class="mock" alt="App" src="/img/mock_qr.png" />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-md-pull-6">
+            <div class="mt80 mt-xs-80 text-right text-left-xs">
+              <h5 class="uppercase bold mb16">Get Address Balances</h5>
+              <p class="fade-1-4">
+                We provide support for any of the three possible addresses that Litecoin has issued throughout the years, including multisig.
+              </p>
+            </div>
+            <div class="mt80 mt-xs-0 text-right text-left-xs">
+              <h5 class="uppercase bold mb16">Validation of Addresses</h5>
+              <p class="fade-1-4">
+                We validate your address and make sure there are no typos when creating a new entry across all possible Litecoin addresses that have been issued.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="mt80 mt-xs-0">
+              <h5 class="uppercase bold mb16">QR Code Scanner</h5>
+              <p class="fade-1-4">
+                Quickly scan your address QR code to fill in the form. Name the address and see your total LTC balance along with USD calculations.
+              </p>
+            </div>
+            <div class="mt80 mt-xs-0">
+              <h5 class="uppercase bold mb16">Data is stored local</h5>
+              <p class="fade-1-4">
+                We do require you to create any username to use this app and all data is stored locally on your device.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--end of row-->
+      </div>
+      <!--end of container-->
+    </section>
+    <footer class="footer-1 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <img alt="Logo" class="logo" src="img/ltc-circle.png" />
+            <span class="ltcbal">Litecoin Balance</span>
+          </div>
+        </div>
+        <!--end of row-->
+        <div class="row">
+          <div class="col-sm-6">
+            <span class="sub">&copy; Copyright 2018 - Coinhark</span>
+          </div>
+          <div class="col-sm-6 text-right">
+            <ul class="list-inline social-list">
+              <li>
+                <a href="http://www.twitter.com/coinhark">
+                  <i class="ti-twitter-alt"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="ti-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="ti-dribbble"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="ti-vimeo-alt"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--end of container-->
+    </footer>
+  </div>
 </template>
 
-<template name="info">
-  <h2>Learn Meteor!</h2>
-  <ul>
-    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
-  </ul>
-</template>
+<!--<head>
+  <meta charset="utf-8">
+  <title>Coinhark - Litecoin Balance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="../imports/ui/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="../imports/ui/css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="../imports/ui/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="../imports/ui/css/theme-hyperblue.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="../imports/ui/css/custom.css" rel="stylesheet" type="text/css" media="all" />
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+{> bodyRender}
+</body>
+
+<template name="bodyRender">
+  <div class="main-container">
+    <section class="fullscreen image-bg parallax background-multiply">
+      <div class="background-image-holder">
+        <img alt="image" class="background-image" src="../imports/img/christopher-burns-271403.jpg" />
+      </div>
+      <div class="container v-align-transform">
+        <div class="col-sm-4 col-sm-offset-4">
+          <img class="whale" src="img/ltc-circle.png" />
+        </div>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1 center">
+            <h1 class="thin mb0">Keep track of your Litecoin wallet balances in one place</h1>
+          </div>
+        </div>
+        <!--end of row
+      </div>
+      <!--end of container
+      <div class="align-bottom text-center">
+        <ul class="list-inline social-list mb24">
+          <li>
+            <a href="http://www.twitter.com/coinhark">
+              <i class="ti-twitter-alt"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="ti-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="ti-dribbble"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="ti-vimeo-alt"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-push-3 text-center">
+            <div class="image-slider slider-paging-controls controls-outside">
+              <ul class="slides">
+                <li class="mb32">
+                  <img class="mock" alt="App" src="../imports/ui/img/coinhark_mockup.png" />
+                </li>
+                <li class="mb32">
+                  <img class="mock" alt="App" src="../imports/ui/img/coinhark_mock2.png" />
+                </li>
+                <li class="mb32">
+                  <img class="mock" alt="App" src="../imports/ui/img/coin_mock_copy.png" />
+                </li>
+                <li class="mb32">
+                  <img class="mock" alt="App" src="../imports/ui/img/mock_qr.png" />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-md-pull-6">
+            <div class="mt80 mt-xs-80 text-right text-left-xs">
+              <h5 class="uppercase bold mb16">Get Address Balances</h5>
+              <p class="fade-1-4">
+                We provide support for any of the three possible addresses that Litecoin has issued throughout the years, including multisig.
+              </p>
+            </div>
+            <div class="mt80 mt-xs-0 text-right text-left-xs">
+              <h5 class="uppercase bold mb16">Validation of Addresses</h5>
+              <p class="fade-1-4">
+                We validate your address and make sure there are no typos when creating a new entry across all possible Litecoin addresses that have been issued.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="mt80 mt-xs-0">
+              <h5 class="uppercase bold mb16">QR Code Scanner</h5>
+              <p class="fade-1-4">
+                Quickly scan your address QR code to fill in the form. Name the address and see your total LTC balance along with USD calculations.
+              </p>
+            </div>
+            <div class="mt80 mt-xs-0">
+              <h5 class="uppercase bold mb16">Data is stored local</h5>
+              <p class="fade-1-4">
+                We do require you to create any username to use this app and all data is stored locally on your device.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--end of row
+      </div>
+      <!--end of container
+    </section>
+    <footer class="footer-1 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <img alt="Logo" class="logo" src="img/ltc-circle.png" />
+            <span class="ltcbal">Litecoin Balance</span>
+          </div>
+        </div>
+        <!--end of row
+        <div class="row">
+          <div class="col-sm-6">
+            <span class="sub">&copy; Copyright 2018 - Coinhark</span>
+          </div>
+          <div class="col-sm-6 text-right">
+            <ul class="list-inline social-list">
+              <li>
+                <a href="http://www.twitter.com/coinhark">
+                  <i class="ti-twitter-alt"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="ti-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="ti-dribbble"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="ti-vimeo-alt"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--end of container
+    </footer>
+  </div>
+  <script src="../imports/ui/js/jquery.min.js"></script>
+  <script src="../imports/ui/js/bootstrap.min.js"></script>
+  <script src="../imports/ui/js/flexslider.min.js"></script>
+  <script src="../imports/ui/js/smooth-scroll.min.js"></script>
+  <script src="../imports/ui/js/parallax.js"></script>
+  <script src="../imports/ui/js/scripts.js"></script>
+</template>-->
