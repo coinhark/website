@@ -1,0 +1,23 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+.center {
+    text-align: center;
+}
+.circle {
+    background: #fff;
+    border-radius: 50%;
+    padding: 100px;
+}
+.whale {
+    margin-top: -75px;
+    margin-bottom: 30px;
+}
+.mock {
+    max-width: 50%;
+}
+.ltcbal {
+    font-size: 16px;
+    vertical-align: middle;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding-left: 4px;
+}
